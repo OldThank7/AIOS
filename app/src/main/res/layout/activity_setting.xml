@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Setting">
+
+    <EditText
+        android:id="@+id/editIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="172.16.2.15"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <EditText
+        android:id="@+id/editPort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="6001"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="255dp" />
+    <EditText
+        android:id="@+id/editzigbeeport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="6002"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="255dp" />
+    <EditText
+        android:id="@+id/editUHFport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="6005"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <EditText
+        android:id="@+id/editPutterClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="4"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <EditText
+        android:id="@+id/editPutterOpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="5"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit_LampLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit_Fen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="2"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="connection"
+            android:layout_margin="10dp"
+            android:text="保存" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="close"
+            android:layout_margin="10dp"
+            android:text="取消" />
+    </LinearLayout>
+</LinearLayout>

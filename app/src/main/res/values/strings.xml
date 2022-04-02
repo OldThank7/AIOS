@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AIOS</string>
+    <string name="app_shoumai">售卖</string>
+    <string name="app_yinyuanmain">影院主界面</string>
+    <string name="app_setting">设置</string>
+</resources>
